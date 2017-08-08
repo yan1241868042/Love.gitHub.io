@@ -1,0 +1,90 @@
+﻿<!--
+http://yun.93me.com/ 免费提供PHP虚拟主机
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<TITLE>亲爱的大白童鞋</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<link href="93me/default.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="93me/jquery.js"></script>
+<script type="text/javascript" src="93me/garden.js" ></script>
+<script type="text/javascript" src="93me/functions.js" ></script>
+<script type="text/javascript" src="93me/min.js"></script>
+</head>
+
+<body>
+<audio autoplay="autopaly">
+<source src="93me/93me.mp3" type="audio/mp3" />
+</audio>
+<div id="mainDiv">
+<div id="content">
+<div id="code">
+    <div style="width:400px;height:328px;margin-bottom:50px;overflow:hidden;"><img src="img/22.png" alt="亲爱的，我爱你"/></div>
+<span class="comments"></span><br />
+    <span class="space"/><span class="comments">不知从何时起，就给你安上了一个大白的头衔，到今天为止，我们相识已经4年多了。2017年8月8日，我们不经意间的走在了一起，没有丝毫的准备，它就像一场海上突然而来的大洋风暴冲进我心灵那脆弱的港湾，这突然而来的幸福感也带着些许的不知所措和焦虑，因为害怕失去。</span><br />
+    <span class="space"/><span class="comments">在余生的日子里，但愿我们没有争吵和争执，有的只是浓浓的爱意，我想与你携手走进婚姻的殿堂，同坐在有着月光的草坪上，一起遥望着繁星点缀的夜空，讲述那人间古老的爱情神话...</span><br />
+    <span class="space"/><span class="comments">一生就这么一次，谈一场以结婚为目的的恋爱，然后就那样相守，在来往的流年里，岁月安好.</span><br />
+
+</div>
+ <div id="loveHeart">
+<canvas id="garden"></canvas>
+<div id="words">
+<div id="messages"><script language="JavaScript" type="text/javascript" src="93me/clock.js"></script>
+<div id="love">
+    <script type="text/javascript">
+        document.write('<font  color=#00ffff>'+'</br>这四年来我无时无刻不在想着你，你的</br>每一个行为举止都充斥在我的生活中。</br>我想看见你穿婚纱，我穿礼服携手</br>走进婚姻的殿堂。我们生</br>个小公主，一家人漫步</br>在我们的后花园。</br>我有太多太多</br>的期</br>许'+'</font>');
+    </SCRIPT>
+</div>
+
+</div>
+<div id="loveu">
+<div class="signature">
+<script type="text/javascript">
+document.write('<font  color=#00ffff>'+'一直爱你的人：闫锦涛'+'</font>');
+</script>
+</div>
+</div>
+</div>
+
+<script type="text/javascript">
+var offsetX = $("#loveHeart").width() / 2;
+var offsetY = $("#loveHeart").height() / 2 - 55;
+var together = new Date();	
+if (!document.createElement('canvas').getContext) {
+var msg = document.createElement("div");
+msg.id = "errorMsg";
+msg.innerHTML = "提醒您：IE低版本用户请一边惭愧去吧^_^<br/>"+
+"推荐使用浏览器 <a href='http://dl.pconline.com.cn/download/51614.html' target='_blank'>Chrome 14+</a>"+
+"/<a href='http://download.microsoft.com/download/0/4/9/049A037E-B6B4-4303-90BE-BA6CAE979674/IE10-Windows6.1-x86-zh-cn.exe' target='_blank'>IE 9+</a>"+
+"/<a href='http://download.firefox.com.cn/releases/partners/baidu/webins3.0/zh-CN/Firefox-setup.exe' target='_blank'>Firefox 7+</a>"+
+"/Safari 4+<br/>请先升级您的浏览器，效果很炫哦~~"; 
+document.body.appendChild(msg);
+$("#code").css("display", "none")
+$("#copyright").css("position", "absolute");
+$("#copyright").css("bottom", "10px");
+document.execCommand("stop");
+} else {
+setTimeout(function () {
+adjustWordsPosition();
+startHeartAnimation();
+}, 5000);
+
+timeElapse(together);
+setInterval(function () {
+timeElapse(together);
+}, 500);
+
+adjustCodePosition();
+$("#code").typewriter();
+}
+</script> 
+
+<br> 
+
+<div style="text-align:center;">
+<p>来源:<a href="http://user.qzone.qq.com/1241868042/infocenter?ptsig=YrYIgEHqZkmUB74cc*uJQ6SKqYPVlqAM-pjMFTnMAFw_" target="_blank">MyLove</a></p>
+</div>
+     </div>
+</body>
+</html>
