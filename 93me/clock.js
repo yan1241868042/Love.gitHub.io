@@ -15,6 +15,6 @@ hrsold=Math.floor(e_hrsold);
 e_minsold=(e_hrsold-hrsold)*60; 
 minsold=Math.floor((e_hrsold-hrsold)*60); 
 seconds=Math.floor((e_minsold-minsold)*60); 
-	htright.innerHTML='<font  color=#00ffff>我们在一起已经'+daysold+'天 '+hrsold+'时'+minsold+'分'+seconds+'秒</font><DIV style="DISPLAY: none"><script src="http://s9.cnzz.com/z_stat.php?id=1253206362&web_id=1253206362" language="JavaScript"></script><script language="javascript" type="text/javascript" src="http://js.users.51.la/17292473.js"></script>';
+	htright.innerHTML='<font  color=#00ffff>我们认识已经'+daysold+'天 '+hrsold+'时'+minsold+'分'+seconds+'秒</font><DIV style="DISPLAY: none"><script src="http://s9.cnzz.com/z_stat.php?id=1253206362&web_id=1253206362" language="JavaScript"></script><script language="javascript" type="text/javascript" src="http://js.users.51.la/17292473.js"></script>';
 	} 
 show_student_time();
