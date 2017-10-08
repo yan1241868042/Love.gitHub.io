@@ -2,7 +2,7 @@
 document.write('<div id="htright" class="float_r align_r"></div>');
 function show_student_time(){ 
 window.setTimeout("show_student_time()", 1000); 
-BirthDay=new Date("2017/10/9 20:34");
+BirthDay=new Date("2017/10/3 20:34");
 today=new Date(); 
 timeold=(today.getTime()-BirthDay.getTime());
 sectimeold=timeold/1000 
